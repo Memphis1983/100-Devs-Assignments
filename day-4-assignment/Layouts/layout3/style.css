@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box; 
+    border: 1px solid black;
+}                           
+                            
+header, footer {              
+    height: 100px;            
+    border: 1px solid black;  
+    clear: both;              
+    background: lightblue;             
+}                              
+                               
+.section1 {                    
+    width: 20%;                
+    height: 400px;             
+    background: lightgreen;    
+    float: left;               
+}                              
+.section2 {                    
+    width: 40%;                
+    height: 400px;             
+    background: lightgreen;    
+    float: left;                       
+}                              
+.section3 {                    
+    width: 20%;                
+    height: 400px;             
+    background: lightgreen;    
+    float: left;               
+}                              
+.section4 {                    
+    width: 20%;                
+    height: 400px;             
+    background: lightgreen;    
+    float: left;               
+}                              
