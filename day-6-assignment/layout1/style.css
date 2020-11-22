@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  margin: 10px;
+  background: #202020;
+}
+/* ================================================ */
+header,
+footer {
+  height: 100px;
+  border: 1px solid black;
+  clear: both;
+  background: lightblue;
+}
+ 
+.firstSection {
+  height: 250px;
+  width: 33.3333%;
+  border: 1px solid black;
+  float: left;
+  background: lightgreen;
+}
+.secondSection {
+  height: 400px;
+  width: 50%;
+  border: 1px solid black;
+  float: left;
+  background: rgb(241, 221, 34);
+}
+ 
+/*-------------------------@MEDIA (380px)------------------------ */
+@media screen and (max-width: 320px) {
+  .firstSection {
+    background-color: rgb(138, 138, 240);
+    width: 100%;
+  }             
+  .splitSection {
+    display: none;
+  }             
+  .secondSection {
+    background-color: rgb(230, 129, 129);
+    width: 100%;
+  }             
+}               
+                
+/* -------------------------@MEDIA (381-500px)------------------------ */
+@media (min-width: 321px) and (max-width: 480px) {
+  .firstSection {
+    background-color: rgb(127, 127, 241);
+    width: 100%;
+  }             
+  .splitSection {
+    background-color: rgb(194, 194, 66);
+  }             
+  .secondSection {
+    background-color: rgb(247, 112, 112);
+    width: 100%;
+  }             
+}               
+                
+@media (min-width: 481px) and (max-width: 768px) {
+  .firstSection {
+    background-color: rgb(119, 119, 238);
+    width: 100%;
+  }             
+  .secondSection {
+    background-color: rgb(226, 151, 151);
+    width: 100%;
+  }             
+}               
+                
+/* --------------------------@MEDIA (501-800px)------------------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .firstSection {
+    width: 50%; 
+  }             
+  .splitSection {
+    width: 100%;
+  }             
+  .secondSection {
+    width: 50%; 
+  }             
+}               
+                
