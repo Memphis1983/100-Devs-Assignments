@@ -1,0 +1,454 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES                             
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Times New Roman" sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  list-style: none;
+}
+h1,
+h2,
+h3 {
+  font-size: 5rem;
+}
+h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.navBar-logo {
+  width: 52%;
+}
+
+/******************************************
+/* LAYOUT                                  
+/*******************************************/
+header {
+  width: 100%;
+  height: 200px;
+}
+.header-nav {
+  width: 100%;
+  float: left;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  float: left;
+  padding: 4rem 2rem;
+}
+
+.header-nav ul li a {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* -------------First Section--------------- */
+
+.section-1 {
+  background: url(https://i.imgur.com/zQP9a3I.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  float: left;
+  clear: both;
+  text-align: left;
+  margin-bottom: 13%;
+}
+
+.title {
+  margin: 10% 0 0 15%;
+}
+
+.title h1 {
+  font-size: 8rem;
+  color: white;
+}
+
+.title p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px;
+}
+
+.btn-1 {
+  width: 150px;
+  height: 45px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+
+.btn-1:hover {
+  background: white;
+  color: black;
+  opacity: 0.2;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  width: 160px;
+}
+
+.highlight {
+  width: 200px;
+  height: 201px;
+  background: black;
+  color: white;
+  margin: 2% 0 0 16%;
+  border-radius: 5px;
+  text-align: left;
+}
+.highlight h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 20px;
+}
+.highlight h5 span {
+  font-size: 3.5rem;
+  padding-left: 1.2rem;
+}
+.highlight h5 {
+  font-size: 1.2rem;
+}
+
+.btn-2 {
+  width: 120px;
+  height: 35px;
+  margin-left: 11%;
+  margin-top: 5%;
+}
+.btn-2:hover {
+  background: white;
+  color: black;
+  opacity: 0.2;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 160px;
+}
+
+/* -------------------Section Two-------------- */
+.section-2 {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  clear: both;
+}
+
+.beautician,
+.services,
+.products {
+  width: 33.33%;
+  height: 200px;
+  float: left;
+  line-height: 1.2;
+}
+
+.section-2 p {
+  font-size: 1.5rem;
+  padding: 9%;
+}
+.beauticianImage {
+  width: 26%;
+}
+
+/* <!---------------------Section Three-----------------------> */
+.section-3 {
+  width: 100%;
+  background: #f3f4f6;
+  clear: both;
+  text-align: left;
+  line-height: 1.5;
+}
+.content,
+.content-img {
+  width: 50%;
+  float: left;
+}
+.content h3 {
+  margin-left: 28%;
+  font-size: 4rem;
+}
+.content p {
+  font-size: 1.4rem;
+  color: rgb(151, 147, 147);
+  width: 50%;
+  margin-left: 29%;
+  margin-top: 2%;
+}
+.btn-3 {
+  margin-left: 28%;
+  padding: 10px;
+  width: 150px;
+  margin-top: 8%;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 50px;
+}
+.btn-3:hover {
+  background: white;
+  color: black;
+  opacity: 0.2;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 160px;
+}
+
+.contentImg {
+  width: 66%;
+}
+/* ------------Section Four---------------------- */
+.section-4 {
+  width: 100%;
+  height: 400px;
+  clear: both;
+  text-align: center;
+  padding-top: 143px;
+}
+
+.stylers-highlight {
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+}
+.stylers_highlight-img {
+  width: 100%;
+}
+.img-one,
+.img-two,
+.img-three {
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+
+/* ---------Section Five-------------- */
+.section-5 {
+  width: 100%;
+  height: 500px;
+  clear: both;
+  text-align: center;
+  background: url("https://i.imgur.com/1HNdpQN.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 100px;
+}
+.photo-highlight {
+  width: 500px;
+  padding: 100px;
+  margin-left: 10%;
+}
+.photo-highlight h4 {
+  font-size: 2.3rem;
+  padding: 1rem;
+}
+.photo-highlight h5 {
+  font-size: 2.3rem;
+  font-weight: 500; 
+  padding: 1rem;    
+}                   
+.photo-highlight h5 span {
+  font-size: 4rem;  
+  font-weight: 700; 
+  padding: 10px;    
+}                   
+.btn-4 {            
+  padding: 10px;    
+  width: 203px;     
+  background: black;
+  color: white;     
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 63px;     
+  font-size: 1.5rem;
+  margin: 1.5rem;   
+}                   
+.btn-4:hover {      
+  background: white;
+  color: black;     
+  opacity: 0.2;     
+  font-size: 1.2rem;
+  cursor: pointer;  
+}                   
+.highlightPic {     
+  width: 110%;      
+}                   
+/* <!---------------------Section Six-----------------------> */
+.section-6 {        
+  width: 100%;      
+  clear: both;      
+  text-align: center;
+}                   
+.lookbook {         
+  margin: 50px;     
+}                   
+                    
+.gallery {          
+  height: 500px;    
+  width: 500px;     
+  margin: 0 auto;   
+}                   
+                    
+.column {           
+  float: left;      
+  width: 31%;       
+  height: 100%;     
+  margin-left: 10px;
+}                   
+                    
+.col-img {          
+  width: 100%;      
+  height: 50%;      
+  display: block;   
+  margin-top: 10px; 
+}                   
+                    
+.col-img:nth-child(1) {
+  margin-top: 0;    
+}                   
+.column:nth-child(1) {
+  margin-left: 0;   
+}                   
+.column:nth-child(odd) .image:nth-child(odd),
+.column:nth-child(even) .image:nth-child(even) {
+  height: calc((100% / 3) - 10px);
+}                   
+.column:nth-child(odd) .image:nth-child(even),
+.column:nth-child(even) .image:nth-child(odd) {
+  height: calc(((100% / 3) * 2) - 10px);
+}                   
+                    
+/* ---------------Footer----------*/
+                    
+footer {            
+  width: 100%;      
+  margin-top: 100px;
+  background: black;
+  clear: both;      
+}                   
+footer * {          
+  color: white;     
+}                   
+footer h4 {         
+  font-size: 1.3rem;
+  font-weight: 600; 
+  margin: 1rem;     
+  padding: 1rem;    
+}                   
+                    
+.about-us {         
+  width: 15%;       
+  margin: 10px;     
+  text-align: left; 
+  float: left;      
+  margin: 3rem;     
+  margin-left: 8rem;
+}                   
+                    
+.about-us p {       
+  font-size: 1.3rem;
+  line-height: 1.3; 
+}                   
+                    
+.links {            
+  float: left;      
+  margin: 3rem;     
+  margin-left: 6rem;
+}                   
+                    
+.links ul li a {    
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 0.5rem;   
+  padding: 0.5rem;  
+}                   
+                    
+.contact-info {     
+  float: left;      
+  margin: 3rem;     
+  margin-left: 8rem;
+}                   
+.contact-info ul li span {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 0.5rem;   
+  padding: 0.5rem;  
+}                   
+.contact-info ul li a {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 0.5rem;   
+  padding: 0.5rem;  
+}                   
+                    
+.lookbook-gallery { 
+  margin: 1rem;     
+  text-align: center;
+  float: right;     
+}                   
+                    
+.lookbookImg {      
+  width: 60%;       
+}                   
+                    
+/* ------------Footer Sub Section---------------- */
+.footer-sub_section {
+  width: 100%;      
+  clear: both;      
+  margin: 1rem;     
+  padding: 1rem;    
+}                   
+                    
+.footer-nav ul li { 
+  display: block;   
+  padding: 3rem;    
+  float: left;      
+}                   
+.footer-nav ul li:nth-child(2) {
+  margin-left: 2rem;
+}                   
+                    
+.footer-nav ul li span {
+  font-size: 1.3rem;
+}                   
+                    
+.footer-nav ul li a {
+  font-size: 1.4rem;
+}                   
+                    
+/******************************************                           
+/* ADDITIONAL STYLES                                                  
+/*******************************************/
+                    

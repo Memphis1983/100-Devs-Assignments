@@ -1,0 +1,397 @@
+/* -------Font Awesome------------- */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans+Condensed:wght@300&display=swap");
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************              
+/* BASE STYLES                                           
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #0d0d25;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 5rem;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+}
+
+/******************************************              
+/* LAYOUT                                                
+/*******************************************/
+header {
+  width: 100%;
+}
+header nav {
+  float: right;
+}
+header nav ul {
+  padding: 0.5rem;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.2rem;
+}
+
+.firstSection {
+  width: 100%; /* old value 84% */
+  float: left;
+  padding: 5rem;
+  clear: both;
+  background: url(https://i.imgur.com/Be4hbaI.png) no-repeat center;
+  background-size: cover;
+}
+.firstSection h1 {
+  padding: 20px;
+  line-height: 1.2;
+}
+.firstSection input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(230, 224, 224);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 1.6rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+.btn-1 {
+  width: 75px;
+  height: 31px;
+  border: 1px solid orange;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 7px;
+  background: orange;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.btn-1:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  font-size: 0.3rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.6rem;
+  color: white;
+}
+
+.btn-1:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.firstSection ul {
+  list-style: none;
+  margin-top: 2%;
+}
+
+.firstSection ul li {
+  display: inline;
+  margin-left: 2rem;
+  padding: 2rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.fa {
+  color: orange;
+}
+
+.firstSection span {
+  font-size: 1.5rem;
+}
+
+/* ----------Second Section -------------------- */
+.secondSection {
+  padding: 80px;
+  float: left;
+  background: url(https://i.imgur.com/09m5BSY.jpg) no-repeat center;
+  background-size: cover;
+  text-align: justify;
+  text-align: left;
+}
+.secondSection h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: orange;
+  margin: 1% 0 0 43%;
+}
+.secondSection h2 {
+  margin: 2% 0 0px 42%;
+  line-height: 1.2;
+}
+.secondSection p {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.8rem 0 0 51rem;
+  width: 35%;
+  line-height: 1.2;
+}
+
+.btn-2 {
+  width: 150px;
+  height: 40px;
+  color: white;
+  margin-left: 42.5%;
+  margin-top: 5%;
+  padding: 7px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.btn-2:after {
+  content: "\f061";
+  font-family: FontAwesome;
+  font-size: 0.3rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.6rem;
+  color: white;
+}
+
+.btn-2:hover {
+  background: rgb(167, 165, 163);
+  cursor: pointer;
+}
+/* ----------------Third Section-------------------- */
+.thirdSection {
+  width: 100%;
+  background: #f2f8f8;
+  margin: 0 auto;
+  padding: 5rem;
+  text-align: justify;
+  float: left;
+}
+.thirdSection h4 {
+  margin-left: 44%;
+  font-size: 1.5rem;
+  padding-bottom: 40px;
+  color: orange;
+  font-weight: 700;
+}
+.thirdSection h2 {
+  margin-left: 28%;
+}
+.thirdSection ul {
+  margin: 2% 0 0 28%;
+}
+
+.thirdSection ul li {
+  display: inline-block;
+  padding: 0 25px;
+  text-align: center;
+  list-style: none;
+}
+.thirdSection ul li a {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.cardsHolder {
+  float: left;
+  position: relative;
+}
+.swipeCard {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  left: 22%;
+}
+.card1 {
+  background: url(https://i.imgur.com/ntRHXVA.png) no-repeat center;
+  background-size: cover;
+}
+.card2 {
+  background: url(https://i.imgur.com/oF2pNGT.png);
+  background-size: cover;
+}
+.card3 {
+  background: url(https://i.imgur.com/tF13tlt.png) no-repeat center;
+  background-size: cover;
+}
+.card4 {
+  background: url(https://i.imgur.com/9IeIkHh.png) no-repeat center;
+  background-size: cover;
+}
+
+.card5 {
+  background: url(https://i.imgur.com/iVCJ7Uz.png) no-repeat center;
+  background-size: cover;
+}
+.card6 {
+  background: url(https://i.imgur.com/ZYPRXdE.png) no-repeat center;
+  background-size: cover;
+}
+.card7 {
+  background: url(https://i.imgur.com/hl3oEjA.png) no-repeat center;
+  background-size: cover;
+}
+.card8 {
+  background: url(https://i.imgur.com/2FQ7Rh0.png) no-repeat center;
+  background-size: cover;
+}
+
+/* ---------------Section Four-------------- */
+.sectionFour {
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1488153074946-0d3b1bcd029c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80")
+    no-repeat cover;
+  background-size: cover;
+  clear: both;
+  padding-top: 20px;
+}
+.sectionFour h4 {
+  font-size: 1.5rem;
+  color: orange;
+  z-index: 3;
+  margin: 20px;
+  padding: 30px;
+}
+
+.phoneIcon {
+  height: 100px;
+  border-radius: 50px;
+  padding: 20px;
+}
+.call {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.phoneNum {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: orange;
+  margin: 25px;
+}
+.phoneNum a {
+  text-decoration: none;
+  color: orange;
+}
+
+.timings {
+  width: 50%;
+  padding: 3% 1%;
+  float: left;
+  text-align: center;
+}
+.timings span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* ------------Section Five---------- */
+.sectionFive {
+  text-align: center;
+  padding-top: 60px;
+}
+.content {
+  clear: both;
+  padding-bottom: 4rem;
+}
+
+.testimonials h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 20px;
+  color: orange;
+}
+
+.testimonials h3 {
+  font-size: 6rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.customerImg {
+  height: 500px;
+  background: url() no-repeat center;
+  background-size: cover;
+}
+
+.customerImg h5 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.customerImg h6 {
+  font-weight: bolder;
+  font-size: 1.8;
+  padding: 10px;
+}
+
+.customerImg p {
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-bottom: 3rem;
+}
+
+.custHead {
+  width: 30%;
+  border-radius: 90%;
+  padding: 2%;
+}
+
+.ratingImg {
+  height: 30px;
+}
+
+.dotsImg {
+}
+
+footer {
+  clear: both;
+}
+
+/******************************************                                                                                                                                                           
+/* ADDITIONAL STYLES                                                                                                                                                                                  
+/*******************************************/

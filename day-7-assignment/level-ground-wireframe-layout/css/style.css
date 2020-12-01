@@ -1,0 +1,239 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap");
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************                                             
+/* BASE STYLES                                                                          
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  background: white;
+}
+
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 5em;
+}
+
+/******************************************                                             
+/* LAYOUT                                                                               
+/*******************************************/
+
+/* ---------HEADER NAV-------------- */
+
+header nav {
+  width: 100%;
+  height: 100px;
+  background: #66768a;
+  position: relative;
+}
+
+header nav img {
+  width: 2%;
+  position: relative;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(247, 236, 236);
+}
+
+.classes {
+  position: absolute;
+  left: 2%;
+  top: 20%;
+}
+
+.hire {
+  position: absolute;
+  left: 10%;
+  top: 21%;
+}
+.donate {
+  position: absolute;
+  right: 5%;
+  top: 21%;
+}
+
+/* /* ---------SECTION ONE-------------- */
+.container {
+  width: 100%;
+  color: #fff;
+}
+
+.section-one {
+  height: 25%;
+  background: #66768a;
+  max-width: 100%;
+  padding-top: 50px;
+}
+.section-one p {
+  padding: 1em 9em;
+  line-height: 2;
+  font-size: 1.5em;
+}
+video {
+  margin: 4em 0;
+}
+
+/* /* ---------SECTION TWO-------------- */
+.section-two {
+  height: 350px;
+  color: #000;
+}
+
+.section-two p {
+  padding: 0 20em;
+  line-height: 1;
+  font-size: 1.3em;
+}
+
+/* /* ---------Container Two-------------- */
+
+.container-two {
+  background: #dbdfe2;
+  width: 100%;
+  float: left;
+}
+.placeholder {
+  width: 320px;
+  height: 180px;
+  background: #66768a;
+}
+
+.content {
+  margin-top: 200px;
+}
+/* /* ---------Container Two Sections-------------- */
+.section-three {
+  float: left;
+  position: relative;
+  width: 40%;
+  height: 500px;
+  margin-left: 7%;
+  margin-bottom: 20px;
+}
+
+.section-three div {
+  width: 320px;
+  height: 180px;
+  position: absolute;
+  left: 23%;
+  top: 42px;
+}
+
+.section-three a {
+  text-decoration: none;
+  border: 1px solid rgb(105, 102, 102);
+  color: rgb(105, 102, 102);
+  padding: 5px;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+.section-four {
+  width: 40%;
+  float: right;
+  position: relative;
+  margin-bottom: 20px;
+}
+.section-four {
+  height: 500px;
+  margin-left: 7%;
+}
+.section-four div {
+  width: 320px;
+  height: 180px;
+
+  position: absolute;
+  left: 23%;
+  top: 42px;
+}
+.section-four h3 {
+}
+.section-four p {
+}
+
+.section-four a {
+  text-decoration: none;
+  border: 1px solid rgb(105, 102, 102);
+  color: rgb(105, 102, 102);
+  padding: 5px;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+/* /* ---------LAST SECTION-------------- */
+
+.last-container {
+  clear: both;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+}
+.last-section h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+.last-section p {
+  margin: 10px 400px 30px 400px;
+  font-size: 1.5em;
+}
+.last-section a {
+  text-decoration: none;
+  color: rgb(105, 102, 102);
+  border: 1px solid rgb(105, 102, 102);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* /* ---------FOOTER-------------- */
+footer {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background: #000;
+}
+
+footer > nav * {
+  display: block;
+  float: left;
+  color: white;
+}
+footer aside {
+  float: right;
+  color: white;
+}

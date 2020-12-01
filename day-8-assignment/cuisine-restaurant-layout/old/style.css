@@ -1,0 +1,261 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans+Condensed:wght@300&display=swap");
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************                                                                                        
+/* BASE STYLES                                                                                                                     
+/*******************************************/
+
+body {
+  height: auto;
+  background: url(https://i.imgur.com/fn7qVo1.jpg);
+  background-repeat: no-repeat;
+  /* background-size:cover;           */
+
+  background-origin: content-box;
+  /* font-family: 'Merriweather', serif;           */
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+}
+
+/******************************************                                                                                        
+/* LAYOUT                                                                                                                          
+/*******************************************/
+.container-1 {
+  background: url(https://i.imgur.com/vGEFveX.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 106px;
+  margin-left: 219px;
+  width: 100%;
+  /* height: 65vh; */
+  padding-top: 10px;
+  position: relative;
+}
+.navBar {
+  width: 100%;
+  float: left;
+}
+
+.navBar ul li {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+.navBar ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* ----------------First Section------------- */
+
+.firstSection {
+  height: 250px;
+}
+.firstSection h1 {
+  margin-left: 4%;
+  margin-top: 18%;
+  line-height: 1.5;
+  /* position: relative; */
+}
+
+.firstSection input {
+  width: 150px;
+  border: 1px solid gray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 3.5%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+.firstSection ul {
+  list-style: none;
+}
+.firstSection ul li {
+  display: inline;
+  margin: 1rem 0.3rem 0;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.btn-1 {
+  width: 73px;
+  height: 29px;
+  border: 1px solid orange;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 7px;
+  background: orange;
+  color: white;
+}
+ 
+.firstSection span {
+  font-size: 0.6rem;
+}
+ 
+/* ----------secondSection----------------- */
+.secondSection {
+  height: 400px;
+  float: left;
+  background: url(https://i.imgur.com/09m5BSY.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: justify;
+}
+.secondSection h4 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: orange;
+  margin: 5% 0 0 34%;
+}
+.secondSection h2 {
+  margin: 2% 0 0px 34%;
+  line-height: 1.2;
+}
+.secondSection p {
+  position: relative;
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-left: 34%;
+  width: 25%;
+  line-height: 1.2;
+}
+.btn-2 {
+  color: white;
+  margin-left: 34%;
+  margin-top: 2%;
+  padding: 7px;
+  width: 100px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+.btn-1:after,
+button:after {
+  content: "\f061";
+  font-family: FontAwesome;
+  font-size: 0.3rem;
+  padding: 0.2rem;
+  color: ;
+}
+ 
+.secondSection button:hover {
+  background: rgb(167, 165, 163);
+  cursor: pointer;
+}
+ 
+/* ---------thirdSection----------- */
+ 
+.thirdSection {
+  width: 100%;
+  background: #f2f8f8;
+  width: 500px;
+  clear: both;
+}
+                 
+.thirdSection h4 {
+  padding-top: 1.2rem;
+  outline: blue solid 1px;
+  margin-left: 41%;
+  font-size: 0.8rem;
+  color: orange; 
+  font-weight: 700;
+}                
+.thirdSection h2 {
+  margin-left: 25%;
+  margin-top: 2%;
+}                
+                 
+.thirdSection ul li {
+  display: inline-block;
+  list-style: none;
+}                
+.thirdSection ul li a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}                
+                 
+.floatImg {      
+  float: left;   
+}                
+.cardsHolder {   
+  float: left;   
+  position: relative;
+}                
+.swipeCard {     
+  position: relative;
+  width: 100px;  
+  height: 125px; 
+  display: inline-block;
+  margin: 10px;  
+  left: 70%;     
+  padding-bottom: px;
+}                
+                 
+.card1 {         
+  background: url(https://i.imgur.com/ntRHXVA.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}                
+.card2 {         
+  background: url(https://i.imgur.com/oF2pNGT.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}                
+.card3 {         
+  background: url(https://i.imgur.com/tF13tlt.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}                
+.card4 {         
+  background: url(https://i.imgur.com/9IeIkHh.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}                
+                 
+/* -------------------------           */
+/* footer {                                        
+  width: 100%;                                     
+  height: 200px;                                   
+  clear: both;                                     
+} */             
+                 
+/******************************************                                                                                        
+/* ADDITIONAL STYLES                                                                                                               
+/*******************************************/
+.fa {            
+  color: orange; 
+}                
+                 

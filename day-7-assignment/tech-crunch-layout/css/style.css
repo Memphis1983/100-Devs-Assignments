@@ -1,0 +1,101 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES                     
+/*******************************************/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/******************************************
+/* LAYOUT                          
+/*******************************************/
+nav,      
+main,     
+aside {   
+  width: 10%;
+  float: left;
+}         
+main {    
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}         
+aside {   
+  width: 40%;
+}         
+          
+/******************************************        
+/* ADDITIONAL STYLES                               
+/*******************************************/
+          
+/* ------------------Images-------------- */
+nav > img {
+  width: 35%;
+  display: block;
+  margin-left: 25px;
+  margin-top: 20px;
+}         
+main > img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+}         
+          
+/* --------------------NAV BAR-----------------------         */
+          
+nav > img + h5 + a {
+  margin-left: 30px;
+  color: gray;
+}         
+nav ul li {
+  width: 100%;
+  list-style: none;
+  text-align: left;
+  font-weight: 200;
+  font-size: 18px;
+}         
+          
+nav ul li a {
+  text-decoration: none;
+  line-height: 3;
+  color: gray;
+}         
+/* ------------Aside---------  */
+aside ul li a {
+  text-decoration: none;
+  color: black;
+}         
+aside > ul {
+  list-style: none;
+}         
+ul li {   
+  font-size: 20px;
+  font-weight: 900;
+}         
+ul > li > span {
+  display: block;
+  line-height: 1;
+  margin-top: 15px;
+  font-size: 11px;
+}         
+          
