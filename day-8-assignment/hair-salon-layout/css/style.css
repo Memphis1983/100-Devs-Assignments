@@ -62,7 +62,6 @@ header {
 }
 
 .header-nav ul li {
-  display: inline-block;
   float: left;
   padding: 4rem 2rem;
 }
@@ -75,7 +74,7 @@ header {
 /* -------------First Section--------------- */
 
 .section-1 {
-  background: url(https://i.imgur.com/zQP9a3I.jpg) no-repeat center;
+  background: url("https://i.imgur.com/zQP9a3I.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -276,179 +275,309 @@ header {
 }
 .photo-highlight h5 {
   font-size: 2.3rem;
-  font-weight: 500; 
-  padding: 1rem;    
-}                   
+  font-weight: 500;
+  padding: 1rem;
+}
 .photo-highlight h5 span {
-  font-size: 4rem;  
-  font-weight: 700; 
-  padding: 10px;    
-}                   
-.btn-4 {            
-  padding: 10px;    
-  width: 203px;     
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 10px;
+}
+.btn-4 {
+  padding: 10px;
+  width: 203px;
   background: black;
-  color: white;     
+  color: white;
   border: 2px solid white;
   border-radius: 5px;
-  height: 63px;     
+  height: 63px;
   font-size: 1.5rem;
-  margin: 1.5rem;   
-}                   
-.btn-4:hover {      
+  margin: 1.5rem;
+}
+.btn-4:hover {
   background: white;
-  color: black;     
-  opacity: 0.2;     
+  color: black;
+  opacity: 0.2;
   font-size: 1.2rem;
-  cursor: pointer;  
-}                   
-.highlightPic {     
-  width: 110%;      
-}                   
+  cursor: pointer;
+}
+.highlightPic {
+  width: 110%;
+}
 /* <!---------------------Section Six-----------------------> */
-.section-6 {        
-  width: 100%;      
-  clear: both;      
+.section-6 {
+  width: 100%;
+  clear: both;
   text-align: center;
-}                   
-.lookbook {         
-  margin: 50px;     
-}                   
-                    
-.gallery {          
-  height: 500px;    
-  width: 500px;     
-  margin: 0 auto;   
-}                   
-                    
-.column {           
-  float: left;      
-  width: 31%;       
-  height: 100%;     
+}
+.lookbook {
+  margin: 50px;
+}
+
+.gallery {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  height: 100%;
   margin-left: 10px;
-}                   
-                    
-.col-img {          
-  width: 100%;      
-  height: 50%;      
-  display: block;   
-  margin-top: 10px; 
-}                   
-                    
+}
+
+.col-img {
+  width: 100%;
+  height: 50%;
+  display: block;
+  margin-top: 10px;
+}
+
 .col-img:nth-child(1) {
-  margin-top: 0;    
-}                   
+  margin-top: 0;
+}
 .column:nth-child(1) {
-  margin-left: 0;   
-}                   
+  margin-left: 0;
+}
 .column:nth-child(odd) .image:nth-child(odd),
 .column:nth-child(even) .image:nth-child(even) {
   height: calc((100% / 3) - 10px);
-}                   
+}
 .column:nth-child(odd) .image:nth-child(even),
 .column:nth-child(even) .image:nth-child(odd) {
   height: calc(((100% / 3) * 2) - 10px);
-}                   
-                    
+}
+
 /* ---------------Footer----------*/
-                    
-footer {            
-  width: 100%;      
+
+footer {
+  width: 100%;
   margin-top: 100px;
   background: black;
-  clear: both;      
-}                   
-footer * {          
-  color: white;     
-}                   
-footer h4 {         
+  clear: both;
+}
+footer * {
+  color: white;
+}
+footer h4 {
   font-size: 1.3rem;
-  font-weight: 600; 
-  margin: 1rem;     
-  padding: 1rem;    
-}                   
-                    
-.about-us {         
-  width: 15%;       
-  margin: 10px;     
-  text-align: left; 
-  float: left;      
-  margin: 3rem;     
+  font-weight: 600;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.about-us {
+  width: 15%;
+  margin: 10px;
+  text-align: left;
+  float: left;
+  margin: 3rem;
   margin-left: 8rem;
-}                   
-                    
-.about-us p {       
+}
+
+.about-us p {
   font-size: 1.3rem;
-  line-height: 1.3; 
-}                   
-                    
-.links {            
-  float: left;      
-  margin: 3rem;     
+  line-height: 1.3;
+}
+
+.links {
+  float: left;
+  margin: 3rem;
   margin-left: 6rem;
-}                   
-                    
-.links ul li a {    
+}
+
+.links ul li a {
   font-size: 1.4rem;
   display: inline-block;
-  margin: 0.5rem;   
-  padding: 0.5rem;  
-}                   
-                    
-.contact-info {     
-  float: left;      
-  margin: 3rem;     
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.contact-info {
+  float: left;
+  margin: 3rem;
   margin-left: 8rem;
-}                   
+}
 .contact-info ul li span {
   font-size: 1.4rem;
   display: inline-block;
-  margin: 0.5rem;   
-  padding: 0.5rem;  
-}                   
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
 .contact-info ul li a {
   font-size: 1.4rem;
   display: inline-block;
-  margin: 0.5rem;   
-  padding: 0.5rem;  
-}                   
-                    
-.lookbook-gallery { 
-  margin: 1rem;     
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.lookbook-gallery {
+  margin: 1rem;
   text-align: center;
-  float: right;     
-}                   
-                    
-.lookbookImg {      
-  width: 60%;       
-}                   
-                    
+  float: right;
+}
+
+.lookbookImg {
+  width: 60%;
+}
+
 /* ------------Footer Sub Section---------------- */
 .footer-sub_section {
-  width: 100%;      
-  clear: both;      
-  margin: 1rem;     
-  padding: 1rem;    
-}                   
-                    
-.footer-nav ul li { 
-  display: block;   
-  padding: 3rem;    
-  float: left;      
-}                   
+  width: 100%;
+  clear: both;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.footer-nav ul li {
+  display: block;
+  padding: 3rem;
+  float: left;
+}
 .footer-nav ul li:nth-child(2) {
   margin-left: 2rem;
-}                   
-                    
-.footer-nav ul li span {
-  font-size: 1.3rem;
-}                   
-                    
-.footer-nav ul li a {
-  font-size: 1.4rem;
-}                   
-                    
-/******************************************                           
-/* ADDITIONAL STYLES                                                  
+}
+                                           
+.footer-nav ul li span {                   
+  font-size: 1.3rem;                       
+}                                          
+                                           
+.footer-nav ul li a {                      
+  font-size: 1.4rem;                       
+}                                          
+                                           
+/******************************************                                 
+/* MEDIA QUERIES                                                            
 /*******************************************/
-                    
+                                           
+@media screen and (max-width: 400px) {     
+  header,                                  
+  .section-1,                              
+  .section-2,                              
+  .section-3,                              
+  .section-4,                              
+  .section-6,                              
+  footer {                                 
+    float: none;                           
+    width: 100%;                           
+    margin: 0 10px;                        
+  }                                        
+                                           
+  .header-nav ul li {                      
+    width: 92%;                            
+    display: block;                        
+    border-bottom: 1px solid gray;         
+    margin-left: 20px;                     
+  }                                        
+  .header-nav ul li a {                    
+    font-size: 2rem;                       
+  }                                        
+                                           
+  .section-1 {                             
+    background: url("https://i.imgur.com/zQP9a3I.jpg") no-repeat stretch;
+    background-size: center;               
+    width: 150%;                           
+    height: auto;                          
+    border-bottom: 1px solid gray;         
+  }                                        
+  .title h1 {                              
+    font-size: 6rem;                       
+    margin: 5px;                           
+  }                                        
+  .title p {                               
+    font-size: 2rem;                       
+  }                                        
+  .highlight h4 {                          
+    font-size: 2rem;                       
+  }                                        
+  .highlight h5 {                          
+    font-size: 2rem;                       
+  }                                        
+  .btn-1 {                                 
+    visibility: hidden;                    
+  }                                        
+  .btn-2 {                                 
+    visibility: hidden;                    
+  }                                        
+  .beautician,                             
+  .services,                               
+  .products {                              
+    width: 100%;                           
+    height: auto;                          
+  }                                        
+  .beauticianImage,                        
+  .servicesImage,                          
+  .productsImage {                         
+    width: 50%;                            
+  }                                        
+                                           
+  .beautician h6 {                         
+    font-size: 4rem;                       
+  }                                        
+  .services h6 {                           
+    font-size: 4rem;                       
+  }                                        
+  .products h6 {                           
+    font-size: 4rem;                       
+  }                                        
+  .beautician p {                          
+    font-size: 2.5rem;                     
+  }                                        
+  .services p {                            
+    font-size: 2.5rem;                     
+  }                                        
+  .products p {                            
+    font-size: 2.5rem;                     
+  }                                        
+                                           
+  .section-3 .content {                    
+    width: 100%;                           
+  }                                        
+  .content h3 {                            
+    font-size: 3.2rem;                     
+  }                                        
+  .content p {                             
+    font-size: 2.5rem;                     
+    width: 100%;                           
+    line-height: 1.5;                      
+  }                                        
+                                           
+  .content-img {                           
+    width: 100%;                           
+  }                                        
+  .contentImg {                            
+    width: 150%;                           
+    height: auto;                          
+  }                                        
+  .btn-3 {                                 
+    visibility: hidden;                    
+  }                                        
+                                           
+  .stylers-highlight {                     
+    width: 100%;                           
+  }                                        
+  .stylers_highlight-img {                 
+    width: 100%;                           
+  }                                        
+  .img-one,                                
+  .img-two,                                
+  .img-three {                             
+    display: block;                        
+    width: 100%;                           
+  }                                        
+                                           
+  .section-5 {                             
+    width: 150%;                           
+    background: url("https://i.imgur.com/1HNdpQN.jpg") no-repeat center;
+    background-size: cover;                
+  }                                        
+  .photo-highlight {                       
+    width: 100%;                           
+  }                                        
+                                           
+  .about-us {                              
+    width: 100%;                           
+  }                                        
+}                                          
+                                           

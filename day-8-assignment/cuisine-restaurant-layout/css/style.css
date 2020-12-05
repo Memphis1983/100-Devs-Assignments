@@ -58,12 +58,15 @@ h6 {
 /*******************************************/
 header {
   width: 100%;
+  height: 10vh;
 }
 header nav {
-  float: right;
+  float: left;
 }
 header nav ul {
   padding: 0.5rem;
+  width: 100%;
+  margin-left: 141%;
 }
 
 header nav ul li {
@@ -78,7 +81,7 @@ header nav ul li {
   width: 100%; /* old value 84% */
   float: left;
   padding: 5rem;
-  clear: both;
+  padding-bottom: 8rem;
   background: url(https://i.imgur.com/Be4hbaI.png) no-repeat center;
   background-size: cover;
 }
@@ -92,7 +95,7 @@ header nav ul li {
   border: 1px solid rgb(230, 224, 224);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  margin-left: 1.6rem;
+  margin-left: 2.2rem;
   padding: 0.5rem;
   font-size: 1.5rem;
 }
@@ -147,7 +150,8 @@ header nav ul li {
 .secondSection {
   padding: 80px;
   float: left;
-  background: url(https://i.imgur.com/09m5BSY.jpg) no-repeat center;
+  clear: both;
+  background: url("https://i.imgur.com/09m5BSY.jpg") no-repeat center;
   background-size: cover;
   text-align: justify;
   text-align: left;
@@ -218,7 +222,7 @@ header nav ul li {
   margin-left: 28%;
 }
 .thirdSection ul {
-  margin: 2% 0 0 28%;
+  margin: 2% 0 0 31%;
 }
 
 .thirdSection ul li {
@@ -236,6 +240,9 @@ header nav ul li {
   float: left;
   position: relative;
 }
+.cardsHolder1 {
+  margin: 26px 0;
+}
 .swipeCard {
   position: relative;
   width: 150px;
@@ -250,7 +257,7 @@ header nav ul li {
   background-size: cover;
 }
 .card2 {
-  background: url(https://i.imgur.com/oF2pNGT.png);
+  background: url(https://i.imgur.com/oF2pNGT.png) no-repeat center;
   background-size: cover;
 }
 .card3 {
@@ -258,7 +265,7 @@ header nav ul li {
   background-size: cover;
 }
 .card4 {
-  background: url(https://i.imgur.com/9IeIkHh.png) no-repeat center;
+  background: url(https://i.imgur.com/iVCJ7Uz.png) no-repeat center;
   background-size: cover;
 }
 
@@ -267,22 +274,22 @@ header nav ul li {
   background-size: cover;
 }
 .card6 {
-  background: url(https://i.imgur.com/ZYPRXdE.png) no-repeat center;
-  background-size: cover;
-}
-.card7 {
   background: url(https://i.imgur.com/hl3oEjA.png) no-repeat center;
   background-size: cover;
 }
-.card8 {
+.card7 {
   background: url(https://i.imgur.com/2FQ7Rh0.png) no-repeat center;
+  background-size: cover;
+}
+.card8 {
+  background: url(https://i.imgur.com/iVCJ7Uz.png) no-repeat center;
   background-size: cover;
 }
 
 /* ---------------Section Four-------------- */
 .sectionFour {
   text-align: center;
-  background: url("https://images.unsplash.com/photo-1488153074946-0d3b1bcd029c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80")
+  background: url(https://images.unsplash.com/photo-1488153074946-0d3b1bcd029c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw=&auto=format&fit=crop&w=1500&q=80)
     no-repeat cover;
   background-size: cover;
   clear: both;
@@ -366,13 +373,13 @@ header nav ul li {
 .customerImg h6 {
   font-weight: bolder;
   font-size: 1.8;
-  padding: 10px;
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 .customerImg p {
   font-size: 2rem;
   line-height: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem 40rem 3rem 40rem;
 }
 
 .custHead {
@@ -393,5 +400,27 @@ footer {
 }
 
 /******************************************                                                                                                                                                           
-/* ADDITIONAL STYLES                                                                                                                                                                                  
+/* MEDIA QUERIES                                                                                                                                                                               
 /*******************************************/
+
+@media (min-width: 600px) {
+  header {
+    max-width: 100%;
+    margin: auto;
+    float: none;
+    margin: 20px;
+    padding: 10px;
+  }
+  nav ul {
+    width: 100%;
+  }
+  .firstSection {
+    max-width: 100%;
+    float: none;
+    background: url(https://i.imgur.com/Be4hbaI.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+  }
+}

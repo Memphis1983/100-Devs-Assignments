@@ -183,26 +183,26 @@ nav ul li a {
   margin-left: 14%;
   display: block;
   margin-top: 10px;
-}
-
-.section-3 {
+}             
+              
+.section-3 {  
   clear: both;
   margin: 10px;
-}
-
+}             
+              
 .section-3 p {
-  font-size: 1.2rem;
-  margin: 2rem;
-}
-                       
+  font-size: 1.2rem;              
+  margin: 2rem;                   
+}                                 
+                                  
 /******************************************      
 /* MEDIA QUERIES                           
 /*******************************************/
-                       
+                                  
 @media screen and (max-width: 320px) {
-  header {             
-    float: none;       
-  }                    
+  header {                        
+    float: none;                  
+  }                               
   nav ul li {                     
     visibility: hidden;           
   }                               
