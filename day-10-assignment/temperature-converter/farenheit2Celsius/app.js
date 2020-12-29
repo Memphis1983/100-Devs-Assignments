@@ -2,7 +2,7 @@
 
 //click event (smurf)
 document.querySelector("#get-input").addEventListener("click", convert);
-     
+      
 function convert() {
   //get the value from the input
   const fahrenheit = document.querySelector("#user-input").value;
@@ -13,5 +13,5 @@ function convert() {
   document.querySelector("#display").innerText = `${Math.round(
     convertedValue
   )}`;
-}    
-     
+}     
+      

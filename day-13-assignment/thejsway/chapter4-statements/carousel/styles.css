@@ -1,0 +1,39 @@
+.storydiv {
+  height: 182px;
+  width: 355px;
+  padding-left: 175px;
+  top: 0px;                                    
+  left: 0px;                                   
+}                                              
+                                               
+#story1 {                                      
+  background: url(https://tr2.cbsistatic.com/hub/i/r/2020/03/06/577ae693-b828-4a28-93b5-9d7ba518a5c2/resize/770x/2585839a60d92b0d0801a64345608473/istock-1017199998.jpg)
+    no-repeat;                                 
+}                                              
+                                               
+#story2 {                                      
+  background: url(http://www.builderau.com.au/i/s/cov/browser170110.jpg)
+    no-repeat;                                 
+}                                              
+                                               
+#story3 {                                      
+  background: url(http://www.builderau.com.au/i/s/cov/dotnet170110.gif)
+    no-repeat;                                 
+}                                              
+                                               
+#story4 {                                      
+  background: url(http://www.builderau.com.au/i/s/cov/tools170110.jpg) no-repeat;
+}                                              
+                                               
+.storyDesc {                                   
+  padding-top: 10px;                           
+  padding-right: 8px;                          
+  display: block;                              
+}                                              
+                                               
+.fStory {                                      
+  padding-top: 10px;                           
+  display: block;                              
+  font-weight: bold;                           
+}                                              
+                                               
