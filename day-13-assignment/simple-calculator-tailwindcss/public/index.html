@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />            
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>    
+    <link rel="stylesheet" href="output.css" />
+    <script src="main.js" defer></script>
+  </head>                               
+  <body class="bg-green-300 box-border">
+    <div                                
+      class="border-solid border-white p-2 container-sm flex justify-center mt-20 text-bold text-black"
+    >                                   
+      <div class="ml-2 text-center p-2">
+        First Number <br />             
+        <input id="num1" type="number" class="shadow-lg" />
+      </div>                            
+      <div class="ml-2 text-center p-2">
+        Second Number <br />            
+        <input id="num2" type="number" />
+      </div>                            
+    </div>                              
+    <div                                
+      id="operators"                    
+      class="p-2 gap-1.5 text-2xl text-bold container-sm flex justify-center mt-4 text-base space-between text-bold text-white"
+    >                                   
+      <button                           
+        class="operator add w-16 bg-green-600 p-4 hover:bg-white rounded-full"
+      >                                 
+        +                               
+      </button>                         
+      <button                           
+        class="operator sub w-16 bg-green-600 hover:bg-white rounded-full"
+      >                                 
+        -                               
+      </button>                         
+      <button                           
+        class="operator div w-16 bg-green-600 hover:bg-white rounded-full"
+      >                                 
+        /                               
+      </button>                         
+      <button                           
+        class="operator mul w-16 bg-green-600 hover:bg-white rounded-full"
+      >                                 
+        *                               
+      </button>                         
+    </div>                              
+                                        
+    <div                                
+      class="flex bg-white w-32 h-20 justify-center items-center mx-auto mt-10 rounded-lg text-xl"
+    >                                   
+      <h2 id="result" class="result"></h2>
+    </div>                              
+  </body>                               
+</html>                                 
+                                        

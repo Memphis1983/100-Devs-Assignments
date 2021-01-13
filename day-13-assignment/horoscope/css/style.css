@@ -1,0 +1,147 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap');
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(to left, #bc7ce7 40%, #d472cf 60%);
+  font-family: "Bodoni Moda", sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#container {
+  width: 80%;
+  height: 700px;
+  font-size: 1rem;
+  font-family: "Spirax" sans-serif;
+  background-color: linear-gradient(to left, #2e23b2 40%, #776ed8 60%);
+  /* color: white; */
+  margin: auto;
+}
+
+#header {
+  height: 70px;
+  line-height: 2;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 30%;
+}
+
+#selectionArea1 {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+#horoscopeText {
+  height: 450px;
+  padding-right: 2rem;
+  border-color: linear-gradient(to left, #2e23b2 40%, #070059 60%);
+  border-width: 1px;
+  border-style: solid;
+  color: rgb(131, 125, 125);
+  background: #dfa9ec;
+  background: linear-gradient(to bottom left, #bc4eca, #fcdfd4);
+}
+
+#textRow1 {
+  font-size: 2rem;
+font-weight: bolder;
+}
+#textRow2 {
+  font-size: 2rem;
+  background: #dfa9ec;
+  background: linear-gradient(to bottom left, #bc4eca, #fcdfd4);
+  user-select: none;
+  color: rgb(131, 125, 125);
+  margin: 0px;
+  width: 1208px;
+  height: 380px;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+#img_horoscope {
+  margin-right: 15rem;
+  height: 5rem;
+  width: 5rem;
+  top: 50%;
+  left: -50%;
+  transform: translate(1800%, 250%);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#horoscope {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  background: #cf85ec;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  border-radius: 20px;
+}
+
+#horoscope:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#text {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#restartBtn {
+  width: 120px;
+  height: 43px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  background: #cf85ec;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  margin: 2rem 5rem;
+  padding: 1rem;
+}
+
+#restartBtn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

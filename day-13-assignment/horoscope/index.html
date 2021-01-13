@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Horoscope App</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1 class="textHeader">What does your horoscope say about you?</h1>
+
+      </div>
+      <div id="selectionArea1">
+        <h3 id="text">Select your zodiac sign</h3>
+        <select name="zodiac" id="horoscope")>
+          <option value="default">Please select</option>
+          <option value="Aries">Aries (March 21 - April 19)</option>
+          <option value="Taurus">Taurus (April 20 - May 20)</option>
+          <option value="Gemini">Gemini (May 21 - June 20)</option>
+          <option value="Cancer">Cancer (June 21 - July 22)</option>
+          <option value="Leo">Leo (July 23 - August 22)</option>
+          <option value="Virgo">Virgo (August 23 - September 22)</option>
+          <option value="Libra">Libra (September 23 - October 22)</option>
+          <option value="Scorpio">Scorpio (October 23 - November 21)</option>
+          <option value="Sagittarius">
+            Sagittarius (November 22 - December 21)
+          </option>
+          <option value="Capricorn">
+            Capricorn (December 22 - January 19)
+          </option>
+          <option value="Aquarius">Aquarius (January 20 - February 18)</option>
+          <option value="Pisces">Pisces (February 19 - March 20)</option>
+        </select>
+        <button type="button" style="visibility: hidden;" value="Restart" id="restartBtn">
+          Restart
+        </button>
+      </div>
+      <br />
+      <div id="horoscopeText">
+        <h3 id="textRow1"></h3>
+        <div >
+          <img id="img_horoscope" class="img-horo" src="#" alt="zodiac image">
+        </div>
+        <textarea id="textRow2" disabled></textarea>
+      </div>
+      <br />
+    </div>
+      <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
