@@ -7,3 +7,10 @@ console.log(result);
 }
 
 divideTwoNum(25,5);
+
+
+/// or
+
+function twoDivideRoundDown(num1,num2){
+  console.log( Math.floor(num1/num2) )
+}     

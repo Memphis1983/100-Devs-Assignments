@@ -11,3 +11,10 @@ function dingDong(numArray) {
 }
 
 dingDong(numArray);
+
+//OR
+
+function addFirstAndLastValArray(arr){
+  console.log( arr[0] + arr[arr.length-1] )
+}                                   
+addFirstAndLastValArray([1,2,3,4,5])

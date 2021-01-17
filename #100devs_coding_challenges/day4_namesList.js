@@ -10,3 +10,13 @@ function addToArray(userName) {
   
 }
 addToArray("Bob Bobbity Bobster Bobson");
+
+//OR
+
+let namesList = ["Bob","Bobber","Bobberson","Bobbity","Bobson"]
+                                    
+function addNameToList(nameForList){
+  namesList.push(nameForList)       
+  console.log(`You are ${namesList.length} on the list!`);
+}                                   
+addNameToList("Bobby")      
