@@ -1,0 +1,78 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  /* border: 1px solid gray; */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: Helvetica, monospace, sans-serif;
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Image-HD.jpg);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+h2,
+h3,
+h4 {
+  font-size: 1.2rem;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.content-div {
+  flex: 1 1 0;
+  padding-left: 300px;
+  padding-bottom: 110px;
+}
+.content-img {
+  flex: 1 1 0;
+  padding-right: 250px;
+}
+
+.weather-img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+}
+
+button {
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: #fff;
+  color: #000;
+  border-radius: 30px;
+  outline: none;
+  margin-top: 5px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

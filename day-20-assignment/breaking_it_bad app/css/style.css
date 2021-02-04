@@ -1,0 +1,140 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid gray; */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: #eee;
+  font-family: "Kaushan Script", cursive;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* text-align: center; */
+}
+.nav-wrapper {
+  padding-top: 4px;
+  padding-right: 15px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.logo {
+  width: 5%;
+  border-radius: 50%;
+}
+
+.nav-ol {
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+.nav-wrapper h1 {
+  order: 2;
+}
+.link-nav {
+  position: static;
+  display: inline-block;
+  padding-left: 16px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+.main-section {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.left-side-block,
+.right-side-block {
+  width: 10%;
+  background: url(http://electronicexplorations.org/files/2006/01/hazard-stripes-texture.jpg)
+    no-repeat center;
+  background-size: cover;
+}
+.main-content {
+  display: flex;
+  padding-top: 34px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+}
+.middle {
+  padding-top: 34px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+.middle h2 {
+  font-size: 30px;
+  padding: 78px;
+}
+
+.right {
+  /* padding-top: 20px; */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+.content-img {
+  width: 100%;
+  border-radius: 50%;
+  padding-right: 20px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: black;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+}
+button:hover {
+  background: white;
+  cursor: pointer;
+  width: 250px;
+  box-shadow: #eee;
+  color: black;
+}
+
+.footer-wrapper {
+  padding: 6px;
+  background-color: hsla(194, 65.25%, 63.55%, 1);
+  text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
