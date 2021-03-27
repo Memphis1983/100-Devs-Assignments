@@ -200,7 +200,7 @@ function Circle(raidus) {
     },
   });
 }
-// * Exercise: *Construcor function
+// * Exercise: *Constructor function
 const sw = new stopWatch();
 function StopWatch() {
   let startTime,
@@ -235,3 +235,24 @@ function StopWatch() {
     },
   });
 }
+
+// *---------*Cloning and Merging------------------------
+
+let user = {
+  name; "John",
+  age: 30
+};
+
+let clone = {}; //the new empty object
+for (let key in user) {
+  clone[key] = user[key];
+}
+// * clone using Object.assign
+
+let user = { name: "John" };
+
+let permissions1 = { canView = true };
+let permissions2 = { canEdit = true };
+Object.assign(user, permissions1, permissions2);
+
+

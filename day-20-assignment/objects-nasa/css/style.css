@@ -3,18 +3,40 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
+
+body {
+  text-align: center;
+  /* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+  background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/earth_and_limb_m1199291564l_color_2stretch_mask_0.jpg);
+  background-size: cover;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+h3 {
+  background: gray;
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

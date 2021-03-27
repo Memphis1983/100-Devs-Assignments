@@ -27,11 +27,11 @@ console.log(index([1, 2, 3, 4], 10));
 //---------------------------------------------------------------------
 
 //*Challenge 2 - Gravity Flip
-//There are some columns of toy cubes in the box arranged in a line. 
+//There are some columns of toy cubes in the box arranged in a line.
 //The i-th column contains a_i cubes. At first, the gravity in the box is pulling the cubes downwards.
-// When Bob switches the gravity, it begins to pull all the cubes to a certain side of the box, d, 
-//which can be either 'L' or 'R' (left or right). Below is an example of what a box of cubes might look 
-like before and after switching gravity.
+// When Bob switches the gravity, it begins to pull all the cubes to a certain side of the box, d,
+//which can be either 'L' or 'R' (left or right). Below is an example of what a box of cubes might look
+// like before and after switching gravity.
 //Given the initial configuration of the cubes in the box, find out how many cubes are in each of
 // the n columns after Bob switches the gravity.
 
@@ -40,17 +40,16 @@ like before and after switching gravity.
 //flip('R', [3, 2, 1, 2])     =>  [1, 2, 2, 3]
 //flip('L', [1, 4, 5, 3, 5])  =>  [5, 5, 4, 3, 1]
 
-function flip(d,arr) {
+function flip(d, arr) {
   if (d === "l") {
-		return arr.sort((a, b) => a - b);
-	}else if (d === "r"){
-		return arr.sort((a, b) => b - a);
- 	}else {
-  	console.log("Wrong input")
+    return arr.sort((a, b) => a - b);
+  } else if (d === "r") {
+    return arr.sort((a, b) => b - a);
+  } else {
+    console.log("Wrong input");
   }
-  
-  }
- console.log(flip("r",[3, 2, 1, 2]));
+}
+console.log(flip("r", [3, 2, 1, 2]));
 
 // -----------------------------------------------------------------
 
@@ -70,23 +69,24 @@ For 4 or more names, the number in and 2 others simply increases.
 
 */
 
-//Solution: 
+//Solution:
 function likes(names) {
-	if (names.length === 1){
-  	return(`${names[0]} likes this`);
-  }else if (names.length == 2) {
-  	return(`${names[0]} and ${names[1]} like this`);
-  }else if (names.length === 3) {
-  	return(`${names[0]}, ${names[1]} and ${names[2]} like this`);
-  }else if (names.length >= 4) {
-  	return(`${names[0]}, ${names[1]} and ${names.length - 2} others like this`);
-  }else if (names.length === 0) {
-  	return(`no one likes this`);
+  if (names.length === 1) {
+    return `${names[0]} likes this`;
+  } else if (names.length == 2) {
+    return `${names[0]} and ${names[1]} like this`;
+  } else if (names.length === 3) {
+    return `${names[0]}, ${names[1]} and ${names[2]} like this`;
+  } else if (names.length >= 4) {
+    return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+  } else if (names.length === 0) {
+    return `no one likes this`;
   }
 }
 
-
-console.log(likes(["Max", "John", "Mark", "Russell", "Kieran", "Frank", "Dan", "Bob"]));
+console.log(
+  likes(["Max", "John", "Mark", "Russell", "Kieran", "Frank", "Dan", "Bob"])
+);
 
 // -----------------------------------------------------------------
 
@@ -107,16 +107,14 @@ is part of the fourth quarter.
 
 const quarterOf = (month) => {
   if (month <= 3) {
-    return 1
+    return 1;
   } else if (month <= 6) {
-    return 2
+    return 2;
   } else if (month <= 9) {
-    return 3
+    return 3;
   } else if (month <= 12) {
-    return 4
+    return 4;
   }
-  
-} 
+};
 
-console.log(quarterOf(11))
-
+console.log(quarterOf(11));
