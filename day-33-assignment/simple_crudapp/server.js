@@ -4,7 +4,7 @@ const MongoClient = require("mongodb").MongoClient;
 const app = express();
 
 const PORT = 4000;
-const connectionString = `mongodb+srv://memphis83:Rosy14383JS@cluster0.ovwxb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const connectionString = process.env.DB_URL;
 
 let db;
 let quotesCollection;
