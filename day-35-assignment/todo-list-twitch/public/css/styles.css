@@ -1,0 +1,50 @@
+body {
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+h1 {
+  font-size: 5rem;
+  color: red;
+}
+
+input {
+  width: 250px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+button {
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background: #fff;
+  padding: 10px;
+  font-weight: 900;
+  margin: 10px auto;
+}
+button:hover {
+  background: gray;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.todoItem {
+  text-align: left;
+  padding: 4px;
+}
