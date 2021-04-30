@@ -30,7 +30,9 @@ const vowels = new Set('aeiou');
 
 function isVow(a) {
   return a.map(value => {
+//  Create a var and that holds the value of Charcode 
     let charCode = String.fromCharCode(value);
+//  has() method checks at every index in vowels array, if there is, returns the charcode at that index or the value as is
     return vowels.has(charCode) ? charCode : value;
   });
 }
